@@ -9,29 +9,29 @@ sass.compiler = require("node-sass");
 const routes = {
     css: {
         watch: "src/scss/*",
-        src: "src/scss/styles.scss",
+        src: "src/scss/styles2.scss",
         dest: "dist/css",
     },
 };
 
 const styles = () =>
     gulp
-        .src(routes.css.src)
-        .pipe(sass().on("error", sass.logError))
-        .pipe(
-            autoprefixer({
-                flexbox: true,
-                grid: "autoplace",
-            })
-        )
-        .pipe(minify())
-        .pipe(gulp.dest(routes.css.dest));
+    .src(routes.css.src)
+    .pipe(sass().on("error", sass.logError))
+    .pipe(
+        autoprefixer({
+            flexbox: true,
+            grid: "autoplace",
+        })
+    )
+    .pipe(minify())
+    .pipe(gulp.dest(routes.css.dest));
 
 const watch = () => {
     gulp.watch(routes.css.watch, styles);
 };
 
-const clean = () => del(["dist/"]);
+const clean = () => del(["dist/styles.css"]);
 
 const prepare = gulp.series([clean]);
 
