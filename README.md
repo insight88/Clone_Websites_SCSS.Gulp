@@ -1,8 +1,13 @@
 # SCSS Masterclass
 
-(S)CSS Layout Masterclass: Cloning 11 Websites
+* (S)CSS Layout Masterclass: Cloning Landing Pages of 11 Websites
+* [링크](https://nomadcoders.co/css-layout-challenge)
 
-## To Clone:
+## 학습 내용
+
+* Flex box, Grid, SCSS, Responsive Design
+
+## 11 Websites
 
 -   [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 -   [x] [https://paint-box.com/](https://paint-box.com/)
@@ -15,3 +20,7 @@
 -   [x] [http://donicaida.com/](http://donicaida.com/)
 -   [x] [https://canalstreet.market/](https://canalstreet.market/)
 -   [x] [https://wonhundred.com/](https://wonhundred.com/)
+
+## 학습 기간
+
+* 2020.07.20 ~ 2020.08.03
