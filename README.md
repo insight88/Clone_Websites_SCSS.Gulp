@@ -5,7 +5,7 @@
 
 ## 학습 내용
 
-* Flex box, Grid, SCSS, Responsive Design
+* Flex box, Grid, SCSS, Gulp, Responsive Design
 
 ## 11 Websites
 
